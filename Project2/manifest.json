@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Finding the Component Name in Adobe Experience Manager (AEM)",
+    "description": "This tool is designed to help you quickly and easily find AEM components and mark them with their name. It will display the component name in the lower right corner of each component, so you can quickly identify which component is which. This tool will save you time and energy when you need to find and identify components in your AEM projects.",
+    "version": "1.0",
+    "author": "Aslam Ali Khan C",
+    "icons": {
+      "16": "images/icon-16.png",
+      "32": "images/icon-32.png",
+      "48": "images/icon-48.png",
+      "128": "images/icon-128.png"
+    },
+    "action": {
+        "default_icon": {
+          "16": "images/icon-16.png",
+          "32": "images/icon-32.png",
+          "48": "images/icon-48.png",
+          "128": "images/icon-128.png"
+        }
+      },
+      "permissions": ["activeTab", "scripting"],
+      "background": {
+        "service_worker": "background.js"
+      }
+  }

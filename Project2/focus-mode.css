@@ -1,0 +1,498 @@
+
+
+.top-nav-spacing:first-child {
+  position: relative;
+}
+
+.accordionPanel, .articleSeries, .articleSeriesDisplay, .atAGlance, .authorDetail, .authorDisplay, .brandVideo, .careerJobs, .caseStudyCarousel, .caseStudyFilter, .caseStudyList, .clientList, .clientTestimonials, .columnContent, .combinedTaggedItemList, .contactCallouts, .contactList, .contentCarousel, .contentFilter, .contentSlider, .embedCode, .endorsementList, .eventsRegistration, .footernewsletter, .footernewslettersuccess, .formBody, .gatedContentInlineForm, .genericBodyText, .genericCTALink, .globalProperties, .guidetonext, .heroAnimation, .heroArticle, .heroCarousel, .heroColor, .heroImage, .heroImageWebcast, .heroSearch, .homePromoContentModule, .howChannel, .iframe, .imageIntroContent, .imageList, .imagePS, .imageTextGrid, .industriesCalloutModule, .inlineForm, .introductoryHeader, .itemList, .jobDetails, .jobSearchHero, .jobSearchResults, .locationList, .locationMap, .newContactList, .newsDetailIntro, .pardotForm, .peopleGrid, .podcastComponent, .promoAsset, .pullQuote, .quiz, .regionalTranslations, .relatedContent, .relatedLink, .searchableList, .sideTextImage, .signupDownload, .socialShare, .solrSearchResultsComp, .statement, .storeFuture, .storiesCarousel, .subscribeFormDLI, .subscription, .successOrError, .survey, .topicQuickLinks, .topLink, .topOfMind, .verticalpadding, .verticalTabs, .videoComponent, .videoHero, .webcastFilter, .webcastVideo, .windowMessage, .workByType, .workCalloutModule, .workChallengeSolution, .workDetailGrid, .workDetailIntro, .workResult {
+  border: 2px dotted rgb(99, 57, 116, 0.5);
+}
+/* 
+.genericBodyText, .sideTextImage, .verticalTabs, .clientList, .pullQuote, .authorDisplay {
+  border: 2px dotted rgb(99, 57, 116, 0.5);
+} */
+
+.accordionPanel::after, .articleSeries::after, .articleSeriesDisplay::after, .atAGlance::after, .authorDetail::after, .authorDisplay::after, .brandVideo::after, .careerJobs::after, .caseStudyCarousel::after, .caseStudyFilter::after, .caseStudyList::after, .clientList::after, .clientTestimonials::after, .columnContent::after, .combinedTaggedItemList::after, .contactCallouts::after, .contactList::after, .contentCarousel::after, .contentFilter::after, .contentSlider::after, .embedCode::after, .endorsementList::after, .eventsRegistration::after, .footernewsletter::after, .footernewslettersuccess::after, .formBody::after, .gatedContentInlineForm::after, .genericBodyText::after, .genericCTALink::after, .globalProperties::after, .guidetonext::after, .heroAnimation::after, .heroArticle::after, .heroCarousel::after, .heroColor::after, .heroImage::after, .heroImageWebcast::after, .heroSearch::after, .homePromoContentModule::after, .howChannel::after, .iframe::after, .imageIntroContent::after, .imageList::after, .imagePS::after, .imageTextGrid::after, .industriesCalloutModule::after, .inlineForm::after, .introductoryHeader::after, .itemList::after, .jobDetails::after, .jobSearchHero::after, .jobSearchResults::after, .locationList::after, .locationMap::after, .newContactList::after, .newsDetailIntro::after, .pardotForm::after, .peopleGrid::after, .podcastComponent::after, .promoAsset::after, .pullQuote::after, .quiz::after, .regionalTranslations::after, .relatedContent::after, .relatedLink::after, .searchableList::after, .sideTextImage::after, .signupDownload::after, .socialShare::after, .solrSearchResultsComp::after, .statement::after, .storeFuture::after, .storiesCarousel::after, .subscribeFormDLI::after, .subscription::after, .successOrError::after, .survey::after, .topicQuickLinks::after, .topLink::after, .topOfMind::after, .verticalpadding::after, .verticalTabs::after, .videoComponent::after, .videoHero::after, .webcastFilter::after, .webcastVideo::after, .windowMessage::after, .workByType::after, .workCalloutModule::after, .workChallengeSolution::after, .workDetailGrid::after, .workDetailIntro::after, .workResult::after {
+    position: absolute;
+    right: 0;
+  /*  background-color: rgb(155, 89, 182, 0.5);
+        color: #000;
+  */
+    padding: 5px;
+    z-index: 9999;
+    color: #fff;
+    transition: all ease 0.2s;
+    background-image: linear-gradient(45deg, #654ea3, #eaafc8);
+}
+
+
+
+.accordionPanel::after {
+  content:'accordionPanel';
+}
+
+.articleSeries::after {
+  content:'articleSeries';
+}
+
+.articleSeriesDisplay::after {
+  content:'articleSeriesDisplay';
+}
+
+.atAGlance::after {
+  content:'atAGlance';
+}
+
+.authorDetail::after {
+  content:'authorDetail';
+}
+
+.authorDisplay::after {
+  content:'authorDisplay';
+}
+
+.brandVideo::after {
+  content:'brandVideo';
+}
+
+.careerJobs::after {
+  content:'careerJobs';
+}
+
+.caseStudyCarousel::after {
+  content:'caseStudyCarousel';
+}
+
+.caseStudyFilter::after {
+  content:'caseStudyFilter';
+}
+
+.caseStudyList::after {
+  content:'caseStudyList';
+}
+
+.clientList::after {
+  content:'clientList';
+}
+
+.clientTestimonials::after {
+  content:'clientTestimonials';
+}
+
+.columnContent::after {
+  content:'columnContent';
+}
+
+.combinedTaggedItemList::after {
+  content:'combinedTaggedItemList';
+}
+
+.contactCallouts::after {
+  content:'contactCallouts';
+}
+
+.contactList::after {
+  content:'contactList';
+}
+
+.contentCarousel::after {
+  content:'contentCarousel';
+}
+
+.contentFilter::after {
+  content:'contentFilter';
+}
+
+.contentSlider::after {
+  content:'contentSlider';
+}
+
+.embedCode::after {
+  content:'embedCode';
+}
+
+.endorsementList::after {
+  content:'endorsementList';
+}
+
+.eventsRegistration::after {
+  content:'eventsRegistration';
+}
+
+.footernewsletter::after {
+  content:'footernewsletter';
+}
+
+.footernewslettersuccess::after {
+  content:'footernewslettersuccess';
+}
+
+.formBody::after {
+  content:'formBody';
+}
+
+.gatedContentInlineForm::after {
+  content:'gatedContentInlineForm';
+}
+
+.genericBodyText::after {
+  content:'genericBodyText';
+}
+
+.genericCTALink::after {
+  content:'genericCTALink';
+}
+
+.globalProperties::after {
+  content:'globalProperties';
+}
+
+.guidetonext::after {
+  content:'guidetonext';
+}
+
+.heroAnimation::after {
+  content:'heroAnimation';
+}
+
+.heroArticle::after {
+  content:'heroArticle';
+}
+
+.heroCarousel::after {
+  content:'heroCarousel';
+}
+
+.heroColor::after {
+  content:'heroColor';
+}
+
+.heroImage::after {
+  content:'heroImage';
+}
+
+.heroImageWebcast::after {
+  content:'heroImageWebcast';
+}
+
+.heroSearch::after {
+  content:'heroSearch';
+}
+
+.homePromoContentModule::after {
+  content:'homePromoContentModule';
+}
+
+.howChannel::after {
+  content:'howChannel';
+}
+
+.iframe::after {
+  content:'iframe';
+}
+
+.imageIntroContent::after {
+  content:'imageIntroContent';
+}
+
+.imageList::after {
+  content:'imageList';
+}
+
+.imagePS::after {
+  content:'imagePS';
+}
+
+.imageTextGrid::after {
+  content:'imageTextGrid';
+}
+
+.industriesCalloutModule::after {
+  content:'industriesCalloutModule';
+}
+
+.inlineForm::after {
+  content:'inlineForm';
+}
+
+.introductoryHeader::after {
+  content:'introductoryHeader';
+}
+
+.itemList::after {
+  content:'itemList';
+}
+
+.jobDetails::after {
+  content:'jobDetails';
+}
+
+.jobSearchHero::after {
+  content:'jobSearchHero';
+}
+
+.jobSearchResults::after {
+  content:'jobSearchResults';
+}
+
+.locationList::after {
+  content:'locationList';
+}
+
+.locationMap::after {
+  content:'locationMap';
+}
+
+.newContactList::after {
+  content:'newContactList';
+}
+
+.newsDetailIntro::after {
+  content:'newsDetailIntro';
+}
+
+.pardotForm::after {
+  content:'pardotForm';
+}
+
+.peopleGrid::after {
+  content:'peopleGrid';
+}
+
+.podcastComponent::after {
+  content:'podcastComponent';
+}
+
+.promoAsset::after {
+  content:'promoAsset';
+}
+
+.pullQuote::after {
+  content:'pullQuote';
+}
+
+.quiz::after {
+  content:'quiz';
+}
+
+.regionalTranslations::after {
+  content:'regionalTranslations';
+}
+
+.relatedContent::after {
+  content:'relatedContent';
+}
+
+.relatedLink::after {
+  content:'relatedLink';
+}
+
+.searchableList::after {
+  content:'searchableList';
+}
+
+.sideTextImage::after {
+  content:'sideTextImage';
+}
+
+.signupDownload::after {
+  content:'signupDownload';
+}
+
+.socialShare::after {
+  content:'socialShare';
+}
+
+.solrSearchResultsComp::after {
+  content:'solrSearchResultsComp';
+}
+
+.statement::after {
+  content:'statement';
+}
+
+.storeFuture::after {
+  content:'storeFuture';
+}
+
+.storiesCarousel::after {
+  content:'storiesCarousel';
+}
+
+.subscribeFormDLI::after {
+  content:'subscribeFormDLI';
+}
+
+.subscription::after {
+  content:'subscription';
+}
+
+.successOrError::after {
+  content:'successOrError';
+}
+
+.survey::after {
+  content:'survey';
+}
+
+.topicQuickLinks::after {
+  content:'topicQuickLinks';
+}
+
+.topLink::after {
+  content:'topLink';
+}
+
+.topOfMind::after {
+  content:'topOfMind';
+}
+
+.verticalpadding::after {
+  content:'verticalpadding';
+}
+
+.verticalTabs::after {
+  content:'verticalTabs';
+}
+
+.videoComponent::after {
+  content:'videoComponent';
+}
+
+.videoHero::after {
+  content:'videoHero';
+}
+
+.webcastFilter::after {
+  content:'webcastFilter';
+}
+
+.webcastVideo::after {
+  content:'webcastVideo';
+}
+
+.windowMessage::after {
+  content:'windowMessage';
+}
+
+.workByType::after {
+  content:'workByType';
+}
+
+.workCalloutModule::after {
+  content:'workCalloutModule';
+}
+
+.workChallengeSolution::after {
+  content:'workChallengeSolution';
+}
+
+.workDetailGrid::after {
+  content:'workDetailGrid';
+}
+
+.workDetailIntro::after {
+  content:'workDetailIntro';
+}
+
+.workResult::after {
+  content:'workResult';
+}
+
+
+.formError, 
+.searchResults, 
+.seriesBanner, 
+.seriesDetailView, 
+.subscribeForm, 
+.subscriptionOverlay, 
+.subscriptionSuccess, 
+.textimageoverlay, 
+.upcomingLiveCasts, 
+.video, 
+.videoBannerCarousel, 
+.videoCarousel, 
+.videoCarouselsContainer, 
+.videoPromotion, 
+.wasthisHelpful, 
+.downloadSticky, 
+.gatedContentSignUp {
+  border: 2px dotted rgb(99, 57, 116, 0.5);
+}
+
+.formError::after,  .searchResults::after,  .seriesBanner::after,  .seriesDetailView::after,  .subscribeForm::after,  .subscriptionOverlay::after,  .subscriptionSuccess::after,  .textimageoverlay::after,  .upcomingLiveCasts::after,  .video::after,  .videoBannerCarousel::after,  .videoCarousel::after,  .videoCarouselsContainer::after,  .videoPromotion::after,  .wasthisHelpful::after,  .downloadSticky::after,  .gatedContentSignUp::after  {
+  position: absolute;
+  right: 0;
+  background-color: rgb(155, 89, 182, 0.5);
+  padding: 5px;
+  color: #000;
+  z-index: 9999;
+}
+
+.formError::after {
+  content:'formError';
+}  
+
+.searchResults::after {
+  content:'searchResults';
+}  
+
+.seriesBanner::after {
+  content:'seriesBanner';
+}  
+
+.seriesDetailView::after {
+  content:'seriesDetailView';
+}  
+
+.subscribeForm::after {
+  content:'subscribeForm';
+}  
+
+.subscriptionOverlay::after {
+  content:'subscriptionOverlay';
+}  
+
+.subscriptionSuccess::after {
+  content:'subscriptionSuccess';
+}  
+
+.textimageoverlay::after {
+  content:'textimageoverlay';
+}  
+
+.upcomingLiveCasts::after {
+  content:'upcomingLiveCasts';
+}  
+
+.video::after {
+  content:'video';
+}  
+
+.videoBannerCarousel::after {
+  content:'videoBannerCarousel';
+}  
+
+.videoCarousel::after {
+  content:'videoCarousel';
+}  
+
+.videoCarouselsContainer::after {
+  content:'videoCarouselsContainer';
+}  
+
+.videoPromotion::after {
+  content:'videoPromotion';
+}  
+
+.wasthisHelpful::after {
+  content:'wasthisHelpful';
+}  
+
+.downloadSticky::after {
+  content:'downloadSticky';
+}  
+
+.gatedContentSignUp::after {
+  content:'gatedContentSignUp';
+}
